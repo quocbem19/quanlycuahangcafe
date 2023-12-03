@@ -1,0 +1,15 @@
+C:\Users\Administrator\Downloads\Phần mềm Quản Lý Quán Cafe\Phần mềm Quản Lý Quán Cafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fTableManager.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\RdlCompile.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\RdlCompile.compiled
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
