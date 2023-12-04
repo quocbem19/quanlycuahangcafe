@@ -366,5 +366,10 @@ namespace QuanLyQuanCafe
         {
 
         }
+
+        private void tcAdmin_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

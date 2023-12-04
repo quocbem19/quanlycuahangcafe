@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.USP_GetListBillByDateForReportBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.QuanLyQuanCafeDataSet2 = new QuanLyQuanCafe.QuanLyQuanCafeDataSet2();
             this.tpAccount = new System.Windows.Forms.TabPage();
@@ -946,6 +946,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.txbPageBill);
             this.panel1.Controls.Add(this.btnNextBillPage);
             this.panel1.Controls.Add(this.btnPrevioursBillPage);
@@ -1030,6 +1031,7 @@
             this.tcAdmin.SelectedIndex = 0;
             this.tcAdmin.Size = new System.Drawing.Size(658, 439);
             this.tcAdmin.TabIndex = 0;
+            this.tcAdmin.SelectedIndexChanged += new System.EventHandler(this.tcAdmin_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -1044,9 +1046,9 @@
             // 
             // rpViewer
             // 
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.USP_GetListBillByDateForReportBindingSource;
-            this.rpViewer.LocalReport.DataSources.Add(reportDataSource1);
+            reportDataSource2.Name = "DataSet1";
+            reportDataSource2.Value = this.USP_GetListBillByDateForReportBindingSource;
+            this.rpViewer.LocalReport.DataSources.Add(reportDataSource2);
             this.rpViewer.LocalReport.ReportEmbeddedResource = "QuanLyQuanCafe.Report2.rdlc";
             this.rpViewer.Location = new System.Drawing.Point(0, 0);
             this.rpViewer.Name = "rpViewer";
