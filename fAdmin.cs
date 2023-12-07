@@ -17,9 +17,9 @@ namespace QuanLyQuanCafe
     public partial class fAdmin : Form
     {
         BindingSource foodList = new BindingSource();
-
+        BindingSource tablelist = new BindingSource();
         BindingSource accountList = new BindingSource();
-
+        BindingSource categorylist = new BindingSource();
         public Account loginAccount;
         public fAdmin()
         {
@@ -39,11 +39,14 @@ namespace QuanLyQuanCafe
         {
             dtgvFood.DataSource = foodList;
             dtgvAccount.DataSource = accountList;
-
+            dtgvTable.DataSource = tablelist;
+            dtgvCategory.DataSource = categorylist;
             LoadDateTimePickerBill();
             LoadListBillByDate(dtpkFromDate.Value, dtpkToDate.Value);
             LoadListFood();
+            LoadListTable();
             LoadAccount();
+            LoadListCategory();
             LoadCategoryIntoCombobox(cbFoodCategory);
             AddFoodBinding();
             AddAccountBinding();
@@ -86,6 +89,13 @@ namespace QuanLyQuanCafe
         void LoadListFood()
         {
             foodList.DataSource = FoodDAO.Instance.GetListFood();
+        }
+        void LoadListTable(){
+            tablelist.DataSource = TableDAO.Instance.GetListTable();
+        }
+        void LoadListCategory()
+        {
+            categorylist.DataSource = CategoryDAO.Instance.GetListCategory();
         }
 
         void AddAccount(string userName, string displayName, int type)
